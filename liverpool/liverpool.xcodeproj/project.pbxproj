@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D2D09C5214A18A187BFC746 /* Pods_liverpoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0520AD56EFC99D86F7FAB731 /* Pods_liverpoolTests.framework */; };
+		A7BAC9871FEAC6EC006C59B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC9861FEAC6EC006C59B2 /* AppDelegate.swift */; };
+		A7BAC9891FEAC6EC006C59B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC9881FEAC6EC006C59B2 /* ViewController.swift */; };
+		A7BAC98C1FEAC6EC006C59B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BAC98A1FEAC6EC006C59B2 /* Main.storyboard */; };
+		A7BAC98F1FEAC6EC006C59B2 /* liverpool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC98D1FEAC6EC006C59B2 /* liverpool.xcdatamodeld */; };
+		A7BAC9911FEAC6EC006C59B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BAC9901FEAC6EC006C59B2 /* Assets.xcassets */; };
+		A7BAC9941FEAC6EC006C59B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BAC9921FEAC6EC006C59B2 /* LaunchScreen.storyboard */; };
+		A7BAC99F1FEAC6EC006C59B2 /* liverpoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC99E1FEAC6EC006C59B2 /* liverpoolTests.swift */; };
+		A7BAC9AA1FEAC6EC006C59B2 /* liverpoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC9A91FEAC6EC006C59B2 /* liverpoolUITests.swift */; };
+		CAFF54D2900B307228450CA5 /* Pods_liverpoolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2EDFB6C08009D96470920B /* Pods_liverpoolUITests.framework */; };
+		F0EF74937B10028659B75B30 /* Pods_liverpool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B1EDA1FCE546A857370B93 /* Pods_liverpool.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7BAC99B1FEAC6EC006C59B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BAC97B1FEAC6EB006C59B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BAC9821FEAC6EC006C59B2;
+			remoteInfo = liverpool;
+		};
+		A7BAC9A61FEAC6EC006C59B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BAC97B1FEAC6EB006C59B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7BAC9821FEAC6EC006C59B2;
+			remoteInfo = liverpool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0520AD56EFC99D86F7FAB731 /* Pods_liverpoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liverpoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B79576797F6894621376B28 /* Pods-liverpoolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liverpoolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liverpoolUITests/Pods-liverpoolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11B1EDA1FCE546A857370B93 /* Pods_liverpool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liverpool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E10ED957479964233FB8CC /* Pods-liverpool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liverpool.release.xcconfig"; path = "Pods/Target Support Files/Pods-liverpool/Pods-liverpool.release.xcconfig"; sourceTree = "<group>"; };
+		2F7FBAC483C2B0653BA97D3C /* Pods-liverpoolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liverpoolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liverpoolTests/Pods-liverpoolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C92BA9EA561C8DF06E2E5EF /* Pods-liverpoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liverpoolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-liverpoolTests/Pods-liverpoolTests.release.xcconfig"; sourceTree = "<group>"; };
+		9789B43260E2FB4719FBD441 /* Pods-liverpoolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liverpoolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-liverpoolUITests/Pods-liverpoolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7BAC9831FEAC6EC006C59B2 /* liverpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liverpool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BAC9861FEAC6EC006C59B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7BAC9881FEAC6EC006C59B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7BAC98B1FEAC6EC006C59B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7BAC98E1FEAC6EC006C59B2 /* liverpool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = liverpool.xcdatamodel; sourceTree = "<group>"; };
+		A7BAC9901FEAC6EC006C59B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7BAC9931FEAC6EC006C59B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7BAC9951FEAC6EC006C59B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BAC99A1FEAC6EC006C59B2 /* liverpoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liverpoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BAC99E1FEAC6EC006C59B2 /* liverpoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liverpoolTests.swift; sourceTree = "<group>"; };
+		A7BAC9A01FEAC6EC006C59B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BAC9A51FEAC6EC006C59B2 /* liverpoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liverpoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BAC9A91FEAC6EC006C59B2 /* liverpoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liverpoolUITests.swift; sourceTree = "<group>"; };
+		A7BAC9AB1FEAC6EC006C59B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8A34F501BC10CD42F702F8 /* Pods-liverpool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liverpool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liverpool/Pods-liverpool.debug.xcconfig"; sourceTree = "<group>"; };
+		DD2EDFB6C08009D96470920B /* Pods_liverpoolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liverpoolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7BAC9801FEAC6EC006C59B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EF74937B10028659B75B30 /* Pods_liverpool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BAC9971FEAC6EC006C59B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2D09C5214A18A187BFC746 /* Pods_liverpoolTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BAC9A21FEAC6EC006C59B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFF54D2900B307228450CA5 /* Pods_liverpoolUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BBAB88192E1A0370A38D60D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF8A34F501BC10CD42F702F8 /* Pods-liverpool.debug.xcconfig */,
+				29E10ED957479964233FB8CC /* Pods-liverpool.release.xcconfig */,
+				2F7FBAC483C2B0653BA97D3C /* Pods-liverpoolTests.debug.xcconfig */,
+				6C92BA9EA561C8DF06E2E5EF /* Pods-liverpoolTests.release.xcconfig */,
+				0B79576797F6894621376B28 /* Pods-liverpoolUITests.debug.xcconfig */,
+				9789B43260E2FB4719FBD441 /* Pods-liverpoolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7BAC97A1FEAC6EB006C59B2 = {
+			isa = PBXGroup;
+			children = (
+				A7BAC9851FEAC6EC006C59B2 /* liverpool */,
+				A7BAC99D1FEAC6EC006C59B2 /* liverpoolTests */,
+				A7BAC9A81FEAC6EC006C59B2 /* liverpoolUITests */,
+				A7BAC9841FEAC6EC006C59B2 /* Products */,
+				8BBAB88192E1A0370A38D60D /* Pods */,
+				E514AE9DAA87838E91C10DA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7BAC9841FEAC6EC006C59B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7BAC9831FEAC6EC006C59B2 /* liverpool.app */,
+				A7BAC99A1FEAC6EC006C59B2 /* liverpoolTests.xctest */,
+				A7BAC9A51FEAC6EC006C59B2 /* liverpoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7BAC9851FEAC6EC006C59B2 /* liverpool */ = {
+			isa = PBXGroup;
+			children = (
+				A7BAC9861FEAC6EC006C59B2 /* AppDelegate.swift */,
+				A7BAC9881FEAC6EC006C59B2 /* ViewController.swift */,
+				A7BAC98A1FEAC6EC006C59B2 /* Main.storyboard */,
+				A7BAC9901FEAC6EC006C59B2 /* Assets.xcassets */,
+				A7BAC9921FEAC6EC006C59B2 /* LaunchScreen.storyboard */,
+				A7BAC9951FEAC6EC006C59B2 /* Info.plist */,
+				A7BAC98D1FEAC6EC006C59B2 /* liverpool.xcdatamodeld */,
+			);
+			path = liverpool;
+			sourceTree = "<group>";
+		};
+		A7BAC99D1FEAC6EC006C59B2 /* liverpoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7BAC99E1FEAC6EC006C59B2 /* liverpoolTests.swift */,
+				A7BAC9A01FEAC6EC006C59B2 /* Info.plist */,
+			);
+			path = liverpoolTests;
+			sourceTree = "<group>";
+		};
+		A7BAC9A81FEAC6EC006C59B2 /* liverpoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7BAC9A91FEAC6EC006C59B2 /* liverpoolUITests.swift */,
+				A7BAC9AB1FEAC6EC006C59B2 /* Info.plist */,
+			);
+			path = liverpoolUITests;
+			sourceTree = "<group>";
+		};
+		E514AE9DAA87838E91C10DA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11B1EDA1FCE546A857370B93 /* Pods_liverpool.framework */,
+				0520AD56EFC99D86F7FAB731 /* Pods_liverpoolTests.framework */,
+				DD2EDFB6C08009D96470920B /* Pods_liverpoolUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7BAC9821FEAC6EC006C59B2 /* liverpool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BAC9AE1FEAC6EC006C59B2 /* Build configuration list for PBXNativeTarget "liverpool" */;
+			buildPhases = (
+				5B53435BD773CB7FE6901A3D /* [CP] Check Pods Manifest.lock */,
+				A7BAC97F1FEAC6EC006C59B2 /* Sources */,
+				A7BAC9801FEAC6EC006C59B2 /* Frameworks */,
+				A7BAC9811FEAC6EC006C59B2 /* Resources */,
+				41112FA2436004088D10015A /* [CP] Embed Pods Frameworks */,
+				B908CED67A9041ACEDB8950D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liverpool;
+			productName = liverpool;
+			productReference = A7BAC9831FEAC6EC006C59B2 /* liverpool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7BAC9991FEAC6EC006C59B2 /* liverpoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BAC9B11FEAC6EC006C59B2 /* Build configuration list for PBXNativeTarget "liverpoolTests" */;
+			buildPhases = (
+				2D10AB6832E305E11312998F /* [CP] Check Pods Manifest.lock */,
+				A7BAC9961FEAC6EC006C59B2 /* Sources */,
+				A7BAC9971FEAC6EC006C59B2 /* Frameworks */,
+				A7BAC9981FEAC6EC006C59B2 /* Resources */,
+				64513882762563BC83B0B3FE /* [CP] Embed Pods Frameworks */,
+				F93FC907446EB63FD8639D5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7BAC99C1FEAC6EC006C59B2 /* PBXTargetDependency */,
+			);
+			name = liverpoolTests;
+			productName = liverpoolTests;
+			productReference = A7BAC99A1FEAC6EC006C59B2 /* liverpoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7BAC9A41FEAC6EC006C59B2 /* liverpoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BAC9B41FEAC6EC006C59B2 /* Build configuration list for PBXNativeTarget "liverpoolUITests" */;
+			buildPhases = (
+				E605A16CD0C0CAE29ED78CA2 /* [CP] Check Pods Manifest.lock */,
+				A7BAC9A11FEAC6EC006C59B2 /* Sources */,
+				A7BAC9A21FEAC6EC006C59B2 /* Frameworks */,
+				A7BAC9A31FEAC6EC006C59B2 /* Resources */,
+				B31556F0AAAE09491EB9A053 /* [CP] Embed Pods Frameworks */,
+				B89CDCD461C7E89D0E9A2498 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7BAC9A71FEAC6EC006C59B2 /* PBXTargetDependency */,
+			);
+			name = liverpoolUITests;
+			productName = liverpoolUITests;
+			productReference = A7BAC9A51FEAC6EC006C59B2 /* liverpoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7BAC97B1FEAC6EB006C59B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Erick Cienfuegos";
+				TargetAttributes = {
+					A7BAC9821FEAC6EC006C59B2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A7BAC9991FEAC6EC006C59B2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7BAC9821FEAC6EC006C59B2;
+					};
+					A7BAC9A41FEAC6EC006C59B2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7BAC9821FEAC6EC006C59B2;
+					};
+				};
+			};
+			buildConfigurationList = A7BAC97E1FEAC6EB006C59B2 /* Build configuration list for PBXProject "liverpool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7BAC97A1FEAC6EB006C59B2;
+			productRefGroup = A7BAC9841FEAC6EC006C59B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7BAC9821FEAC6EC006C59B2 /* liverpool */,
+				A7BAC9991FEAC6EC006C59B2 /* liverpoolTests */,
+				A7BAC9A41FEAC6EC006C59B2 /* liverpoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7BAC9811FEAC6EC006C59B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BAC9941FEAC6EC006C59B2 /* LaunchScreen.storyboard in Resources */,
+				A7BAC9911FEAC6EC006C59B2 /* Assets.xcassets in Resources */,
+				A7BAC98C1FEAC6EC006C59B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BAC9981FEAC6EC006C59B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BAC9A31FEAC6EC006C59B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D10AB6832E305E11312998F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-liverpoolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41112FA2436004088D10015A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liverpool/Pods-liverpool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B53435BD773CB7FE6901A3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-liverpool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64513882762563BC83B0B3FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liverpoolTests/Pods-liverpoolTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B31556F0AAAE09491EB9A053 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liverpoolUITests/Pods-liverpoolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B89CDCD461C7E89D0E9A2498 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liverpoolUITests/Pods-liverpoolUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B908CED67A9041ACEDB8950D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liverpool/Pods-liverpool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E605A16CD0C0CAE29ED78CA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-liverpoolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F93FC907446EB63FD8639D5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-liverpoolTests/Pods-liverpoolTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7BAC97F1FEAC6EC006C59B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BAC9891FEAC6EC006C59B2 /* ViewController.swift in Sources */,
+				A7BAC9871FEAC6EC006C59B2 /* AppDelegate.swift in Sources */,
+				A7BAC98F1FEAC6EC006C59B2 /* liverpool.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BAC9961FEAC6EC006C59B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BAC99F1FEAC6EC006C59B2 /* liverpoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BAC9A11FEAC6EC006C59B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BAC9AA1FEAC6EC006C59B2 /* liverpoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7BAC99C1FEAC6EC006C59B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7BAC9821FEAC6EC006C59B2 /* liverpool */;
+			targetProxy = A7BAC99B1FEAC6EC006C59B2 /* PBXContainerItemProxy */;
+		};
+		A7BAC9A71FEAC6EC006C59B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7BAC9821FEAC6EC006C59B2 /* liverpool */;
+			targetProxy = A7BAC9A61FEAC6EC006C59B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7BAC98A1FEAC6EC006C59B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BAC98B1FEAC6EC006C59B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7BAC9921FEAC6EC006C59B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BAC9931FEAC6EC006C59B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7BAC9AC1FEAC6EC006C59B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7BAC9AD1FEAC6EC006C59B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7BAC9AF1FEAC6EC006C59B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8A34F501BC10CD42F702F8 /* Pods-liverpool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = liverpool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fire.liverpool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7BAC9B01FEAC6EC006C59B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E10ED957479964233FB8CC /* Pods-liverpool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = liverpool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fire.liverpool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7BAC9B21FEAC6EC006C59B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7FBAC483C2B0653BA97D3C /* Pods-liverpoolTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = liverpoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fire.liverpoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liverpool.app/liverpool";
+			};
+			name = Debug;
+		};
+		A7BAC9B31FEAC6EC006C59B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C92BA9EA561C8DF06E2E5EF /* Pods-liverpoolTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = liverpoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fire.liverpoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/liverpool.app/liverpool";
+			};
+			name = Release;
+		};
+		A7BAC9B51FEAC6EC006C59B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B79576797F6894621376B28 /* Pods-liverpoolUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = liverpoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fire.liverpoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = liverpool;
+			};
+			name = Debug;
+		};
+		A7BAC9B61FEAC6EC006C59B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9789B43260E2FB4719FBD441 /* Pods-liverpoolUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = liverpoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fire.liverpoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = liverpool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7BAC97E1FEAC6EB006C59B2 /* Build configuration list for PBXProject "liverpool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BAC9AC1FEAC6EC006C59B2 /* Debug */,
+				A7BAC9AD1FEAC6EC006C59B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BAC9AE1FEAC6EC006C59B2 /* Build configuration list for PBXNativeTarget "liverpool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BAC9AF1FEAC6EC006C59B2 /* Debug */,
+				A7BAC9B01FEAC6EC006C59B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BAC9B11FEAC6EC006C59B2 /* Build configuration list for PBXNativeTarget "liverpoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BAC9B21FEAC6EC006C59B2 /* Debug */,
+				A7BAC9B31FEAC6EC006C59B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BAC9B41FEAC6EC006C59B2 /* Build configuration list for PBXNativeTarget "liverpoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BAC9B51FEAC6EC006C59B2 /* Debug */,
+				A7BAC9B61FEAC6EC006C59B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7BAC98D1FEAC6EC006C59B2 /* liverpool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7BAC98E1FEAC6EC006C59B2 /* liverpool.xcdatamodel */,
+			);
+			currentVersion = A7BAC98E1FEAC6EC006C59B2 /* liverpool.xcdatamodel */;
+			path = liverpool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7BAC97B1FEAC6EB006C59B2 /* Project object */;
+}
