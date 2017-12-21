@@ -7,7 +7,11 @@ target 'liverpool' do
 
   # Pods for liverpool
   pod 'Alamofire', '~> 4.5'
+  pod 'AlamofireImage', '~> 3.3'
+  pod 'AlamofireObjectMapper', '~> 5.0'
+  pod 'SQLite.swift', '~> 0.11.4'
   pod 'lottie-ios'
+  pod 'SwiftyJSON'
   
   target 'liverpoolTests' do
     inherit! :search_paths

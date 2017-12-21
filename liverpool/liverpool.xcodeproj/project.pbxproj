@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7D2D09C5214A18A187BFC746 /* Pods_liverpoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0520AD56EFC99D86F7FAB731 /* Pods_liverpoolTests.framework */; };
+		A74CD9C11FEB3DE4005E3BDA /* SearchDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CD9C01FEB3DE4005E3BDA /* SearchDB.swift */; };
+		A74CD9C31FEB3E91005E3BDA /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CD9C21FEB3E91005E3BDA /* Search.swift */; };
+		A74CD9C51FEB42E2005E3BDA /* HistoricalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CD9C41FEB42E2005E3BDA /* HistoricalTableViewController.swift */; };
 		A7BAC9871FEAC6EC006C59B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC9861FEAC6EC006C59B2 /* AppDelegate.swift */; };
 		A7BAC9891FEAC6EC006C59B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC9881FEAC6EC006C59B2 /* ViewController.swift */; };
 		A7BAC98C1FEAC6EC006C59B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BAC98A1FEAC6EC006C59B2 /* Main.storyboard */; };
@@ -16,6 +19,12 @@
 		A7BAC9941FEAC6EC006C59B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BAC9921FEAC6EC006C59B2 /* LaunchScreen.storyboard */; };
 		A7BAC99F1FEAC6EC006C59B2 /* liverpoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC99E1FEAC6EC006C59B2 /* liverpoolTests.swift */; };
 		A7BAC9AA1FEAC6EC006C59B2 /* liverpoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC9A91FEAC6EC006C59B2 /* liverpoolUITests.swift */; };
+		A7BAC9B81FEADBC0006C59B2 /* E.json in Resources */ = {isa = PBXBuildFile; fileRef = A7BAC9B71FEADBBF006C59B2 /* E.json */; };
+		A7BAC9BB1FEADE7D006C59B2 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC9BA1FEADE7D006C59B2 /* SearchTableViewController.swift */; };
+		A7BAC9BE1FEAEA3F006C59B2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC9BD1FEAEA3F006C59B2 /* Extension.swift */; };
+		A7BAC9C11FEAF607006C59B2 /* Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC9C01FEAF607006C59B2 /* Mappers.swift */; };
+		A7BAC9C31FEB210E006C59B2 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC9C21FEB210E006C59B2 /* Record.swift */; };
+		A7BAC9C51FEB397E006C59B2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BAC9C41FEB397E006C59B2 /* TableViewCell.swift */; };
 		CAFF54D2900B307228450CA5 /* Pods_liverpoolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2EDFB6C08009D96470920B /* Pods_liverpoolUITests.framework */; };
 		F0EF74937B10028659B75B30 /* Pods_liverpool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B1EDA1FCE546A857370B93 /* Pods_liverpool.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +54,9 @@
 		2F7FBAC483C2B0653BA97D3C /* Pods-liverpoolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liverpoolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liverpoolTests/Pods-liverpoolTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C92BA9EA561C8DF06E2E5EF /* Pods-liverpoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liverpoolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-liverpoolTests/Pods-liverpoolTests.release.xcconfig"; sourceTree = "<group>"; };
 		9789B43260E2FB4719FBD441 /* Pods-liverpoolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liverpoolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-liverpoolUITests/Pods-liverpoolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A74CD9C01FEB3DE4005E3BDA /* SearchDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDB.swift; sourceTree = "<group>"; };
+		A74CD9C21FEB3E91005E3BDA /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		A74CD9C41FEB42E2005E3BDA /* HistoricalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalTableViewController.swift; sourceTree = "<group>"; };
 		A7BAC9831FEAC6EC006C59B2 /* liverpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liverpool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BAC9861FEAC6EC006C59B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7BAC9881FEAC6EC006C59B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +71,12 @@
 		A7BAC9A51FEAC6EC006C59B2 /* liverpoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liverpoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BAC9A91FEAC6EC006C59B2 /* liverpoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liverpoolUITests.swift; sourceTree = "<group>"; };
 		A7BAC9AB1FEAC6EC006C59B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BAC9B71FEADBBF006C59B2 /* E.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = E.json; sourceTree = "<group>"; };
+		A7BAC9BA1FEADE7D006C59B2 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		A7BAC9BD1FEAEA3F006C59B2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A7BAC9C01FEAF607006C59B2 /* Mappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappers.swift; sourceTree = "<group>"; };
+		A7BAC9C21FEB210E006C59B2 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		A7BAC9C41FEB397E006C59B2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		AF8A34F501BC10CD42F702F8 /* Pods-liverpool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-liverpool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-liverpool/Pods-liverpool.debug.xcconfig"; sourceTree = "<group>"; };
 		DD2EDFB6C08009D96470920B /* Pods_liverpoolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_liverpoolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -129,6 +147,8 @@
 		A7BAC9851FEAC6EC006C59B2 /* liverpool */ = {
 			isa = PBXGroup;
 			children = (
+				A7BAC9B91FEADE2E006C59B2 /* controllers */,
+				A7BAC9B71FEADBBF006C59B2 /* E.json */,
 				A7BAC9861FEAC6EC006C59B2 /* AppDelegate.swift */,
 				A7BAC9881FEAC6EC006C59B2 /* ViewController.swift */,
 				A7BAC98A1FEAC6EC006C59B2 /* Main.storyboard */,
@@ -136,6 +156,12 @@
 				A7BAC9921FEAC6EC006C59B2 /* LaunchScreen.storyboard */,
 				A7BAC9951FEAC6EC006C59B2 /* Info.plist */,
 				A7BAC98D1FEAC6EC006C59B2 /* liverpool.xcdatamodeld */,
+				A7BAC9BD1FEAEA3F006C59B2 /* Extension.swift */,
+				A7BAC9C01FEAF607006C59B2 /* Mappers.swift */,
+				A7BAC9C21FEB210E006C59B2 /* Record.swift */,
+				A7BAC9C41FEB397E006C59B2 /* TableViewCell.swift */,
+				A74CD9C01FEB3DE4005E3BDA /* SearchDB.swift */,
+				A74CD9C21FEB3E91005E3BDA /* Search.swift */,
 			);
 			path = liverpool;
 			sourceTree = "<group>";
@@ -156,6 +182,15 @@
 				A7BAC9AB1FEAC6EC006C59B2 /* Info.plist */,
 			);
 			path = liverpoolUITests;
+			sourceTree = "<group>";
+		};
+		A7BAC9B91FEADE2E006C59B2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7BAC9BA1FEADE7D006C59B2 /* SearchTableViewController.swift */,
+				A74CD9C41FEB42E2005E3BDA /* HistoricalTableViewController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 		E514AE9DAA87838E91C10DA4 /* Frameworks */ = {
@@ -287,6 +322,7 @@
 				A7BAC9941FEAC6EC006C59B2 /* LaunchScreen.storyboard in Resources */,
 				A7BAC9911FEAC6EC006C59B2 /* Assets.xcassets in Resources */,
 				A7BAC98C1FEAC6EC006C59B2 /* Main.storyboard in Resources */,
+				A7BAC9B81FEADBC0006C59B2 /* E.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,9 +367,24 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-liverpool/Pods-liverpool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,9 +509,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BAC9BE1FEAEA3F006C59B2 /* Extension.swift in Sources */,
+				A7BAC9C51FEB397E006C59B2 /* TableViewCell.swift in Sources */,
 				A7BAC9891FEAC6EC006C59B2 /* ViewController.swift in Sources */,
+				A74CD9C11FEB3DE4005E3BDA /* SearchDB.swift in Sources */,
+				A7BAC9C11FEAF607006C59B2 /* Mappers.swift in Sources */,
 				A7BAC9871FEAC6EC006C59B2 /* AppDelegate.swift in Sources */,
+				A7BAC9C31FEB210E006C59B2 /* Record.swift in Sources */,
+				A74CD9C51FEB42E2005E3BDA /* HistoricalTableViewController.swift in Sources */,
+				A74CD9C31FEB3E91005E3BDA /* Search.swift in Sources */,
 				A7BAC98F1FEAC6EC006C59B2 /* liverpool.xcdatamodeld in Sources */,
+				A7BAC9BB1FEADE7D006C59B2 /* SearchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
