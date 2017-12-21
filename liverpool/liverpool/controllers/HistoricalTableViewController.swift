@@ -11,8 +11,6 @@ import UIKit
 class HistoricalTableViewController: UITableViewController {
 
     var elements = [Search]()
-    var lista = []
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
